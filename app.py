@@ -11,9 +11,9 @@ tv = st.number_input("TV Spend", min_value=0)
 digital = st.number_input("Digital Spend",min_value=0)
 influencer = st.number_input("Influencer Spend",min_value=0)
 discount = st.number_input("Discount",min_value=0)
-visits = st.number_input("Website Visits",min_value=0)
-leads = st.number_input("Leads",min_value=0)
-conversion = st.number_input("Conversion Rate",min_value=0)
+# visits = st.number_input("Website Visits",min_value=0)
+# leads = st.number_input("Leads",min_value=0)
+# conversion = st.number_input("Conversion Rate",min_value=0)
 
 
 # predict 
