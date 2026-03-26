@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 # load model and columns 
-model  = pickle.load(open("D:\Data Science\linear regression\sales_model.pkl","rb"))
-cols = pickle.load(open("D:\Data Science\linear regression\columns.pkl","rb"))
+model = pickle.load(open("sales_model.pkl","rb"))
+cols = pickle.load(open("columns.pkl","rb"))
 st.title("Sales Predication App")
 st.write("This app predicts sales based on marketing spend.")
 # inputs
