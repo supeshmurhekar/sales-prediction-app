@@ -34,5 +34,4 @@ if st.button("Predict Sales"):
     prediction = max(0, prediction[0])
 
     # st.success(f"Predicted Sales: ₹ {round(prediction, 2)}")
-  )
     st.success(f"Predicted Sales: ₹ {round(prediction, 2)}")
