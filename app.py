@@ -24,10 +24,10 @@ if st.button("Predict Sales"):
     input_data['TV_Spend'] = tv
     input_data['Digital_Spend'] = digital
     input_data['Influencer_Spend'] = influencer
-    input_data['Discount'] = discount
-    input_data['Website_Visits'] = visits
-    input_data['Leads'] = leads
-    input_data['Conversion_Rate'] = conversion
+    # input_data['Discount'] = discount
+    # input_data['Website_Visits'] = visits
+    # input_data['Leads'] = leads
+    # input_data['Conversion_Rate'] = conversion
 
     prediction = model.predict(input_data)
 
