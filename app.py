@@ -28,7 +28,6 @@ if st.button("Predict Sales"):
     # input_data['Website_Visits'] = visits
     # input_data['Leads'] = leads
     # input_data['Conversion_Rate'] = conversion
-
-   prediction = model.predict(input_data)
-   prediction = max(0, prediction[0])
-   st.success(f"Predicted Sales: ₹ {round(prediction[0],2)}")
+     prediction = model.predict(input_data)
+     prediction = max(0, prediction[0])
+     st.success(f"Predicted Sales: ₹ {round(prediction[0],2)}")
